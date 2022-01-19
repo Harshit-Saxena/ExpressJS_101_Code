@@ -1,6 +1,7 @@
 const http = require('http')
 const server = http.createServer((req, res) => {
     // res.write('Welcome to my first node web server')
+    const url = req.url;
     if(req.url === '/'){
         res.end('this is the root folder')
     }if(req.url === '/about') {
