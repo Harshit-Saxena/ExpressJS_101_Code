@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Harshit-Saxena/ExpressJS_101_Code/issues"
   },
-  "homepage": "https://github.com/Harshit-Saxena/ExpressJS_101_Code#readme"
+  "homepage": "https://github.com/Harshit-Saxena/ExpressJS_101_Code#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
 }
